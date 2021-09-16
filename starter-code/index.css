@@ -1,0 +1,125 @@
+/* @media(min-width:375px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(min-width:375px) {
+    .card {
+        flex: 1 1 250px;
+    }
+} */
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    color: black;
+    font-size: 15px;
+    font-family: [Lexend Deca];
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+img {
+    width: 90%;
+    height: 100%;
+    /* margin-top: 2rem; */
+    float: right;
+    border-bottom-right-radius: 0.5rem;
+    opacity: 2;
+}
+
+* {
+    margin: 0.5rem;
+}
+
+.card {
+    margin-top: 7rem;
+    height: 20rem;
+    width: 70%;
+    background: hsl(244, 38%, 16%);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    /* margin: 1rem; */
+}
+
+.text-container {
+    width: 50%;
+    padding-left: 1rem;
+}
+
+span {
+    margin-right: 4px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    /* border-radius: 0px; */
+}
+
+.text-container>h1,
+p {
+    padding-top: 2rem;
+    margin-left: 1rem;
+}
+
+.values {
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.values-text {
+    font-weight: lighter;
+    font-size: 0.6rem;
+}
+
+#insight {
+    color: hsl(277, 64%, 61%);
+}
+
+.sub-image-container {
+    opacity: 0.4;
+}
+
+
+/* @media (min-width:375px) {
+            section .card {
+                font-size: 58%;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+        
+        @media (min-width:375px) {
+            section .card {
+                font-size: 55%;
+                display: flex;
+                flex-direction: column-reverse;
+                height: 2;
+            }
+            section .main-container {
+                height: 30rem;
+            }
+            section img {
+                height: 85%;
+                width: 100%;
+            }
+        }
+        /* For mobile phones: */
